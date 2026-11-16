@@ -1,8 +1,10 @@
 
 # Visual Studio
 .vs/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 *.csproj.user
 
 # Build output
@@ -10,16 +12,14 @@
 **/obj/
 
 # Test results
-[Tt]est[Rr]esult*/
+TestResults/
 *.trx
 
 # NuGet packages
 *.nupkg
 *.snupkg
 
-# Logs
+# Logs and temporary files
 *.log
-
-# Temporary files
 *.tmp
 *.cache
